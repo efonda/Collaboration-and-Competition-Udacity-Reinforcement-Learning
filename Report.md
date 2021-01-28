@@ -57,5 +57,7 @@ The training took about 2 hours and 20 minutes using a GPU.
 We tested a few combinations of hyperparameters, but to improve the score and decrease the number of episodes to solve the environment
 we could perform an exhaustive hyperparameters search and optimization.
 
+An effective way to improve the performance of DDPG would be to try Prioritized Experience Replay.
+
 The next step would be to try the multi-agents deep deterministic policy gradient (MADDPG) algorithm  ([Lowe et al. 2016](https://arxiv.org/pdf/1706.02275.pdf)),
 which is an extension of the algorithm used in this project but for multiple agents.
